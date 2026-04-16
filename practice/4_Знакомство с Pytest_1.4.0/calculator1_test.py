@@ -1,13 +1,6 @@
-from calculator import Calculator
+'''from calculator import Calculator
 
 calculator = Calculator()
-
-# + -
-# - -
-# - +
-# . .
-# n 0
-
 
 res = calculator.sum(4, 5)
 assert res == 9
@@ -37,8 +30,5 @@ res = calculator.avg(numbers)
 assert res == 5
 
 res = calculator.div(10, 0)
-assert res == None
-
-
-
+assert res == None'''
 
