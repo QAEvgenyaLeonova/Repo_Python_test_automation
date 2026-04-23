@@ -21,6 +21,7 @@ class StringUtils:
             string = string.removeprefix(whitespace)
         return string
 
+
     def contains(self, string: str, symbol: str) -> bool:
         """
         Возвращает `True`, если строка содержит искомый символ
