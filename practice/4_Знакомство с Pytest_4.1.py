@@ -58,7 +58,7 @@ class StringProcessor:# строка процессора
 
 
 import pytest
-from string_processor import StringProcessor
+from string_processor import StringP
 
 @pytest.mark.parametrize(
     "input_text, expected_output",
