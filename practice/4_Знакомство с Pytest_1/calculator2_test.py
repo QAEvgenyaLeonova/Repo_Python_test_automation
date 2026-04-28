@@ -2,6 +2,7 @@
 В предыдущем степе мы поняли, что тестирование каждого метода класса — дело трудоемкое и долгое.
 Поэтому сейчас мы создадим более удобный вариант для проверки методов.'''
 
+'''
 import pytest
 from calculator import Calculator
 
@@ -55,7 +56,7 @@ def test_avg_positive():
     numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 5]
     res = calculator.avg(numbers)
     assert res == 5
-
+'''
 
 
 

@@ -1,4 +1,4 @@
-class Calculator:
+'''class Calculator:
 
     def sum(self, a, b):
         result = a+b
@@ -28,4 +28,4 @@ class Calculator:
              s = s + num
 
         l = len(nums)
-        return self.div(s, l)
+        return self.div(s, l)'''
