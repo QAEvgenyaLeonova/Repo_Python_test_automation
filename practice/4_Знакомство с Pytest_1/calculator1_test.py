@@ -3,7 +3,7 @@
 Потому что одна ошибка (один проваленный тест) скрывает статус всех следующих проверок. Если в проекте тысяча тестов, то одна ошибка
 может заблокировать проверку остальных сотен тестов.'''
 
-from calculator import Calculator
+#from calculator import Calculator
 
 calculator = Calculator()
 
