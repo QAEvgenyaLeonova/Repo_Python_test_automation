@@ -3,7 +3,7 @@
 Потому что одна ошибка (один проваленный тест) скрывает статус всех следующих проверок. Если в проекте тысяча тестов, то одна ошибка
 может заблокировать проверку остальных сотен тестов.'''
 
-'''#from calculator import Calculator
+from calculator import Calculator
 
 calculator = Calculator()
 
@@ -44,7 +44,7 @@ assert res == 0
 numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 5]
 res = calculator.avg(numbers)
 print(res)
-assert res == 5'''
+assert res == 5
 
 '''Разбор вашего примера
 У вас список: [1, 2, 3, 4, 5, 6, 7, 8, 9, 5]

@@ -43,7 +43,7 @@ class Calculator:
 Потому что одна ошибка (один проваленный тест) скрывает статус всех следующих проверок. Если в проекте тысяча тестов, то одна ошибка
 может заблокировать проверку остальных сотен тестов.'''
 
-from calculator import Calculator
+'''from calculator import Calculator
 
 calculator = Calculator()
 
@@ -85,7 +85,7 @@ numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 5]
 res = calculator.avg(numbers)
 print(res)
 assert res == 5
-
+'''
 '''Разбор вашего примера
 У вас список: [1, 2, 3, 4, 5, 6, 7, 8, 9, 5]
 
@@ -107,7 +107,7 @@ assert res == 5
 В предыдущем степе мы поняли, что тестирование каждого метода класса — дело трудоемкое и долгое.
 Поэтому сейчас мы создадим более удобный вариант для проверки методов.'''
 
-import pytest
+'''import pytest
 from calculator import Calculator
 
 calculator = Calculator()
@@ -254,10 +254,10 @@ def test_avg_list(nums, expected):
     calculator = Calculator()
     res = calculator.avg(nums)
     assert res == expected
-
+'''
 
 '''ПРАКТИКА'''
-class StringProcessor:# строка процессора
+'''class StringProcessor:# строка процессора
     @staticmethod
     def process(text: str) -> str:
         if not text:
@@ -288,7 +288,7 @@ def test_process_positive(input_text, expected_output):
 )
 def test_process_negative(input_text, expected_output):
     processor = StringProcessor()
-    assert processor.process(input_text) == expected_output
+    assert processor.process(input_text) == expected_output'''
 
 
 

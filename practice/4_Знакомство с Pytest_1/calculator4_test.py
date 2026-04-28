@@ -1,4 +1,4 @@
-'''from unittest import result
+from unittest import result
 
 import pytest
 from calculator import Calculator
@@ -26,7 +26,7 @@ def test_div_by_zero():
 def test_avg_empty_list(nums, result):
     calculator = Calculator()
     res = calculator.avg(nums)
-    assert res == result'''
+    assert res == result
 
 
 
